@@ -12,7 +12,7 @@ def first_wa(arr)
   arr.each{|d| return d if d[0..1] == 'wa'}
 end
 
-def remove_non_strings(a)
+def remove_non_strings(arr)
   a.select{|d| d.is_a?(String)}
 end
 
