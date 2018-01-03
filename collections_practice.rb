@@ -8,7 +8,7 @@ def contain_a(arr)
   arr.select{|i| i.include?('a')}
 end
 
-def first_wa(a)
+def first_wa(arr)
   a.each{|d| return d if d[0..1] == 'wa'}
 end
 
