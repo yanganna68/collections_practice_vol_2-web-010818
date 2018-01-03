@@ -9,7 +9,7 @@ def contain_a(arr)
 end
 
 def first_wa(arr)
-  a.each{|d| return d if d[0..1] == 'wa'}
+  arr.each{|d| return d if d[0..1] == 'wa'}
 end
 
 def remove_non_strings(a)
