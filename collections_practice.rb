@@ -1,5 +1,5 @@
 # your code goes here
-def begins_with_r (arr)
+def begins_with_r(arr)
   arr.each{|i| return false if i[0] != 'r'}
   true
 end
