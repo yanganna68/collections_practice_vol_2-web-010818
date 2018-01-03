@@ -16,8 +16,8 @@ def remove_non_strings(arr)
   arr.select{|d| d.is_a?(String)}
 end
 
-def count_elements(a)
-  b = a.uniq
+def count_elements(arr)
+  b = arr.uniq
   b.map{|n| n[:count] = a.count(n)}
   b
 end
