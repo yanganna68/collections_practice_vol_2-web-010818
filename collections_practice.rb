@@ -4,8 +4,8 @@ def begins_with_r (arr)
   true
 end
 
-def contain_a(a)
-  a.select{|i| i.include?('a')}
+def contain_a(arr)
+  arr.select{|i| i.include?('a')}
 end
 
 def first_wa(a)
