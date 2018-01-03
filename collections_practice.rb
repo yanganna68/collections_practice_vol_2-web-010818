@@ -13,7 +13,7 @@ def first_wa(arr)
 end
 
 def remove_non_strings(arr)
-  a.select{|d| d.is_a?(String)}
+  arr.select{|d| d.is_a?(String)}
 end
 
 def count_elements(a)
