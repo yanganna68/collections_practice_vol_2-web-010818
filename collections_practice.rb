@@ -18,7 +18,7 @@ end
 
 def count_elements(arr)
   b = arr.uniq
-  b.map{|n| n[:count] = a.count(n)}
+  b.map{|n| n[:count] = arr.count(n)}
   b
 end
 
